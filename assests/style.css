@@ -42,6 +42,8 @@ body {
 .head-links {
     margin-left: 30%;
     width: 100%;
+    font-family: 'Arvo',
+        serif;
 }
 
 .head-logo {
@@ -53,6 +55,7 @@ body {
     position: fixed;
     top: 0px;
     right: 0px;
+    left: 0px;
     min-height: 100%;
     min-width: 100%;
     z-index: -10;
@@ -105,4 +108,149 @@ body {
     .youtube-video {
         width: 1300px;
     }
+}
+
+.written-part {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-sar {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.about-sar h3 {
+    font-size: 50px;
+    text-transform: uppercase;
+    background-color: rgba(5, 3, 3, 0.7);
+    border-radius: 2%;
+    padding: 2%;
+    font-family: 'Rampart One',
+        cursive;
+}
+
+.about-sar p {
+    width: 60%;
+    font-size: 30px;
+    line-height: 40px;
+    background-color: rgba(5, 3, 3, 0.7);
+    border-radius: 2%;
+    padding: 2%;
+    letter-spacing: 2px;
+
+    /* font-family: 'Arvo',
+        serif; */
+    font-family: 'Indie Flower',
+        cursive;
+}
+
+.aperture-written-intro,
+.radar-written-intro,
+.working-written-intro,
+.application-written-intro {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 500px;
+    padding: 2%;
+    column-gap: 3%;
+    background-color: rgba(209, 94, 94, 0.7);
+    margin-top: 5%;
+}
+
+
+.aperture-intro-img,
+.radar-intro-img,
+.working-intro-img,
+.application-intro-img {
+    height: 100%;
+    width: 40%;
+}
+
+.aperture-intro-img img,
+.radar-intro-img img,
+.working-intro-img img,
+.application-intro-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.aperture-intro-para,
+.radar-intro-para,
+.working-intro-para,
+.application-intro-para {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100%;
+}
+
+.aperture-intro-para span,
+.radar-intro-para span,
+.working-intro-para span,
+.application-intro-para span {
+    color: white;
+    font-size: 55px;
+    padding: 1%;
+    font-family: 'Rampart One',
+        cursive;
+}
+
+.aperture-intro-para p,
+.radar-intro-para p,
+.working-intro-para p,
+.application-intro-para p {
+    color: white;
+    font-size: 25px;
+    line-height: 29px;
+    border-radius: 2%;
+    padding: 2%;
+    letter-spacing: 2px;
+    font-family: 'Indie Flower',
+        cursive;
+}
+
+.radar-written-intro {
+    height: 550px;
+}
+
+.radar-intro-img {
+    height: 100%;
+    width: 50%;
+}
+
+.working-written-intro {
+    height: 750px;
+
+}
+
+.working-intro-img {
+    height: 100%;
+    width: 50%;
+}
+
+.application-intro-img {
+    width: 60%;
+}
+
+.aperture-written-intro:hover,
+.radar-written-intro:hover,
+.working-written-intro:hover,
+.application-written-intro:hover,
+.about-sar h3:hover,
+.about-sar p:hover {
+    background-color: rgba(5, 3, 3, 0.9);
 }
