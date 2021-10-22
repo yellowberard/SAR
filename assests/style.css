@@ -100,3 +100,9 @@ body {
     border-color: rgb(30, 231, 238);
     border-width: 10px;
 }
+
+@media screen and (max-width: 1550px) {
+    .youtube-video {
+        width: 1300px;
+    }
+}
