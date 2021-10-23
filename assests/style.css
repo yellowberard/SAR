@@ -121,55 +121,6 @@ body {
     border-width: 10px;
 }
 
-@media screen and (max-width: 1550px) {
-    .youtube-video {
-        width: 1100px;
-    }
-
-    .video-container {
-        height: 618px;
-    }
-
-    .head-right a {
-        margin-left: 3%;
-        font-size: 23px;
-    }
-
-    .head-intro {
-        font-size: 110px;
-    }
-
-    .head-right {
-        margin-left: 5%;
-    }
-
-    .about-sar h3 {
-        font-size: 40px;
-    }
-}
-
-@media screen and (max-width: 1110px) {
-    .youtube-video {
-        width: 900px;
-    }
-
-    .video-container {
-        height: 506px;
-    }
-
-    .head-right a {
-        margin-left: 2%;
-        font-size: 20px;
-    }
-
-    .head-intro {
-        font-size: 100px;
-    }
-
-    .head-right {
-        margin-left: 5%;
-    }
-}
 
 
 .written-part {
@@ -280,8 +231,6 @@ body {
 .radar-intro-para p,
 .working-intro-para p,
 .application-intro-para p {
-    /* color: white;
-     */
     color: black;
     font-size: 25px;
     line-height: 29px;
@@ -325,4 +274,154 @@ body {
     color: blanchedalmond;
     /* transform: translateY(10px); */
     width: 85%;
+}
+
+@media screen and (max-width: 1550px) {
+    .youtube-video {
+        width: 1100px;
+    }
+
+    .video-container {
+        height: 618px;
+    }
+
+    .head-right a {
+        margin-left: 3%;
+        font-size: 23px;
+    }
+
+    .head-intro {
+        font-size: 110px;
+    }
+
+    .head-right {
+        margin-left: 5%;
+    }
+
+    .about-sar h3 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .youtube-video {
+        width: 900px;
+    }
+
+    .video-container {
+        height: 506px;
+    }
+
+    .head-right a {
+        margin-left: 2%;
+        font-size: 20px;
+    }
+
+    .head-intro {
+        font-size: 100px;
+    }
+
+    .head-right {
+        margin-left: 5%;
+    }
+
+
+}
+
+@media screen and (max-width: 900px) {
+    .youtube-video {
+        width: 750px;
+    }
+
+    .video-container {
+        height: 421px;
+    }
+
+    .head-right a {
+        margin-left: 2%;
+        font-size: 16px;
+    }
+
+    .head-intro {
+        font-size: 80px;
+    }
+
+    .head-right {
+        margin-left: 3%;
+    }
+
+
+}
+
+@media screen and (max-width: 750px) {
+    .youtube-video {
+        width: 390px;
+    }
+
+    .video-container {
+        height: 214px;
+    }
+
+    .head-right a {
+        margin-left: 10%;
+        font-size: 10px;
+    }
+
+    .head-intro {
+        font-size: 45px;
+
+    }
+
+    .head-right {
+        margin-left: 1%;
+    }
+
+    .aperture-intro-para span,
+    .radar-intro-para span,
+    .working-intro-para span,
+    .application-intro-para span {
+        font-size: 30px;
+    }
+
+    .aperture-intro-para p,
+    .radar-intro-para p,
+    .working-intro-para p,
+    .application-intro-para p {
+
+        font-size: 15px;
+        line-height: 20px;
+        border-radius: 2%;
+        padding: 1%;
+        letter-spacing: 2px;
+        font-family: 'Indie Flower',
+            cursive;
+    }
+
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .aperture-written-intro,
+    .radar-written-intro,
+    .working-written-intro,
+    .application-written-intro {
+        flex-direction: column;
+    }
+
+    .aperture-intro-para,
+    .radar-intro-para,
+    .working-intro-para,
+    .application-intro-para {
+        width: 80%;
+        height: 60%;
+    }
+
+    .aperture-intro-img,
+    .radar-intro-img,
+    .working-intro-img,
+    .application-intro-img {
+        height: 100%;
+        width: 80%;
+    }
 }
