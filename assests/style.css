@@ -59,6 +59,8 @@ body {
     min-height: 100%;
     min-width: 100%;
     z-index: -10;
+    max-width: 100%;
+    height: auto;
 }
 
 .heading-container {
@@ -161,12 +163,14 @@ body {
     /* flex-direction: column; */
     justify-content: center;
     align-items: center;
-    width: 70%;
-    height: 500px;
+    width: 75%;
+    height: auto;
     padding: 2%;
     column-gap: 3%;
-    background-color: rgba(209, 94, 94, 0.7);
+    background-color: rgba(94, 209, 127, 0.7);
     margin-top: 5%;
+    border-radius: 3%;
+    transition: width 1s;
 }
 
 
@@ -213,7 +217,9 @@ body {
 .radar-intro-para p,
 .working-intro-para p,
 .application-intro-para p {
-    color: white;
+    /* color: white;
+     */
+    color: black;
     font-size: 25px;
     line-height: 29px;
     border-radius: 2%;
@@ -223,19 +229,14 @@ body {
         cursive;
 }
 
-.radar-written-intro {
-    height: 550px;
-}
+
 
 .radar-intro-img {
     height: 100%;
     width: 50%;
 }
 
-.working-written-intro {
-    height: 750px;
 
-}
 
 .working-intro-img {
     height: 100%;
@@ -251,6 +252,14 @@ body {
 .working-written-intro:hover,
 .application-written-intro:hover,
 .about-sar h3:hover,
-.about-sar p:hover {
+.about-sar p:hover,
+.radar-intro-para p,
+.aperture-intro-para p,
+.working-intro-para p,
+.application-intro-para p {
     background-color: rgba(5, 3, 3, 0.9);
+    cursor: text;
+    color: blanchedalmond;
+    /* transform: translateY(10px); */
+    width: 85%;
 }
