@@ -1,0 +1,33 @@
+.a-info-img {
+    width: 300px;
+    height: 400px;
+    /* background-color: aliceblue; */
+    background-image: url('https://mail.google.com/mail/u/0?ui=2&ik=323ba8eeed&attid=0.1&permmsgid=msg-f:1714596908687211952&th=17cb78cddb48bdb0&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_xD2_b7TZpW_6MR2FeTqr58-n9lFzkPLG2caDFLzUPB7ulkUrtc7LXGV6NiEyCWsaehGY5KPCsQnccJ7pdSgdQ6ht1fefYUsvxebSF5dKJVwyvXO7ljK_kuH8&disp=emb&realattid=ef783eb22eed1637_0.1.1');
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    background-size: cover;
+}
+
+/* .a-img {
+    width: 300px;
+    height: 400px;
+    border-radius: 5%;
+
+} */
+
+.name {
+    background-color: rgba(28, 22, 22, 0.4);
+    height: 10%;
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 90%; */
+}
+
+.name:hover {
+    background-color: rgba(28, 22, 22, 0.7);
+
+}
