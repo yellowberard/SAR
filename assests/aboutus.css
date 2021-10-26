@@ -288,3 +288,23 @@ h1 {
     width: 200px;
     height: 200px;
 }
+
+@media screen and (max-width: 780px) {
+    .about-info h1 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .about-info h1 {
+        font-size: 30px;
+    }
+
+    .content-inner {
+        width: 350px;
+    }
+
+    .personal-links {
+        column-gap: 1%;
+    }
+}
