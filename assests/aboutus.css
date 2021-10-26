@@ -1,14 +1,21 @@
+.about-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .about-team {
     display: flex;
     column-gap: 10%;
-    margin-left: 10%;
+    margin-left: 18%;
     flex-wrap: wrap;
     row-gap: 10%;
 }
 
 .a-info-img {
     position: relative;
-    width: 650px;
+    width: 600px;
     margin-top: 10%;
 }
 
@@ -19,17 +26,21 @@
 
 }
 
-
+h1 {
+    color: rgb(199, 172, 132);
+    font-size: 60px;
+}
 
 .name {
     position: absolute;
-    bottom: 1%;
+    bottom: 0.5%;
     width: 100%;
-    background-color: rgba(28, 22, 22, 0.4);
+    background-color: rgba(28, 22, 22, 0.6);
     height: 11%;
     color: rgb(199, 172, 132);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
