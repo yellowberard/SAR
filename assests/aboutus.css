@@ -8,9 +8,12 @@
 .about-team {
     display: flex;
     column-gap: 10%;
-    margin-left: 18%;
+    margin-left: 5%;
     flex-wrap: wrap;
-    row-gap: 10%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .a-info-img {
@@ -23,12 +26,13 @@
     width: 100%;
     border-radius: 5%;
     height: 750px;
-
 }
 
 h1 {
     color: rgb(199, 172, 132);
-    font-size: 60px;
+    font-size: 80px;
+    font-family: 'Rampart One',
+        cursive;
 }
 
 .name {
@@ -49,5 +53,26 @@ h1 {
 
 .name:hover {
     background-color: rgba(28, 22, 22, 0.7);
+
+}
+
+.a-info,
+.k-info,
+.m-info,
+.s-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.personal-links {
+    background-color: rgb(245, 227, 155);
+    height: 100px;
+    width: 80%;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    column-gap: 10%;
 
 }
