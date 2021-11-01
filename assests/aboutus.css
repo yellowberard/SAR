@@ -307,4 +307,8 @@ h1 {
     .personal-links {
         column-gap: 1%;
     }
+
+    .ma {
+        height: 10px;
+    }
 }

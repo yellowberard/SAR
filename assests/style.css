@@ -242,13 +242,24 @@ body {
 }
 
 
+#radar-intro,
+#working-intro {
+    flex-direction: column;
+    padding: 0;
+}
+
+#radar-intro .radar-intro-para,
+#working-intro .working-intro-para {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .radar-intro-img {
     height: 100%;
     width: 50%;
 }
-
-
 
 .working-intro-img {
     height: 100%;
@@ -444,7 +455,22 @@ body {
             cursive;
     }
 
+    #radar-intro,
+    #working-intro,
+    #application-intro,
+    #aperture-intro {
+        flex-direction: column;
+        padding: 0;
+    }
 
+    #radar-intro .radar-intro-para,
+    #working-intro .working-intro-para,
+    #application-intro .application-intro-para,
+    #aperture-intro .aperture-intro-para {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 600px) {
