@@ -151,6 +151,8 @@ body {
     transition: width 1s;
     font-family: 'Rampart One',
         cursive;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -232,13 +234,15 @@ body {
 .working-intro-para p,
 .application-intro-para p {
     color: black;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 29px;
     border-radius: 2%;
     padding: 2%;
     letter-spacing: 2px;
-    font-family: 'Indie Flower',
-        cursive;
+    /* font-family: 'Indie Flower',
+        cursive; */
+    font-family: 'PT Sans',
+        sans-serif;
 }
 
 
@@ -259,6 +263,7 @@ body {
 .radar-intro-img {
     height: 100%;
     width: 50%;
+
 }
 
 .working-intro-img {
@@ -311,6 +316,11 @@ body {
 
     /* justify-content: center; */
     align-items: center;
+}
+
+.foot-logo {
+
+    width: 40%;
 }
 
 .this-page {
@@ -470,6 +480,10 @@ body {
         width: 100%;
         justify-content: center;
         align-items: center;
+    }
+
+    .about-sar p {
+        font-size: 20px;
     }
 }
 
