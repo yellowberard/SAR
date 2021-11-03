@@ -1,0 +1,21 @@
+.invention {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#radar-intro,
+#working-intro {
+    flex-direction: row;
+}
+
+.carl-intro {
+    height: 100%;
+}
+
+#carl-img,
+#emmit-img {
+    width: 80%;
+    margin: 20px;
+}
