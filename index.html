@@ -36,8 +36,8 @@
             </div>
         </header>
         <div class="main-content">
-            <div class="heading-container">
-                <h1 class="head-intro" style="color:white">
+            <div class="heading-container headr show-on-scroll">
+                <h1 class="head-intro " style="color:white">
                     Introduction
                 </h1>
             </div>
@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="written-part">
-                <div class="about-sar" id="whtissar">
+                <div class="about-sar js-scroll fade-in-bottom" id="whtissar">
                     <h3 style="color: white;">Synthetic Aperture Radar</h3>
                     <p style="color: white;">
                         Synthetic aperture radar(SAR) is a form of radar that is used to create images of objects, such
@@ -65,13 +65,13 @@
 
                     </p>
                 </div>
-                <div class="aperture-written-intro" id="aperture-intro">
-                    <div class="aperture-intro-img">
-                        <img src="assests\aperture.gif" style="margin-top:30px ;"
+                <div class="aperture-written-intro js-scroll fade-in-bottom" id="aperture-intro">
+                    <div class="aperture-intro-img js-scroll">
+                        <img src="assests\aperture.gif" style="margin-top:30px ;" class="inline-photo show-on-scroll"
                             alt="Aperture Closing and opening Image">
                     </div>
-                    <div class="aperture-intro-para">
-                        <span>What is Aperture??</span>
+                    <div class="aperture-intro-para js-scroll fade-in-bottom">
+                        <span class="headr show-on-scroll">What is Aperture??</span>
                         <p>
                             Aperture of the lens is the hole inside the lens through which the light reaches the image
                             sensor inside the camera.
@@ -87,7 +87,7 @@
                 </div>
                 <div class="radar-written-intro" id="radar-intro">
                     <div class="radar-intro-para">
-                        <span>What is Radar ??</span>
+                        <span class="headr show-on-scroll">What is Radar ??</span>
                         <p>
                             The radar propagates the waves and then observes the waves which collide back.
                             By which we can measure the distance, speed and size of any object.<br> <br>
@@ -103,15 +103,15 @@
                         </p>
                     </div>
                     <div class="radar-intro-img">
-                        <img src="assests\Radar.gif" style="margin-bottom:30px" class="a"
-                            alt=" Radar propagating a wave image">
+                        <img src="assests\Radar.gif" style="margin-bottom:30px" class="a  inline-photo
+                            show-on-scroll" alt=" Radar propagating a wave image">
                     </div>
 
                 </div>
                 <div class="working-written-intro" id="working-intro">
 
                     <div class="working-intro-para">
-                        <span>How SAR works??</span>
+                        <span class="headr show-on-scroll">How SAR works??</span>
                         <p>
                             A synthetic aperture radar (SAR) is an active sensor that first transmits microwave signals
                             and then receives back the signals that are returned, or backscattered , from the Earth's
@@ -134,12 +134,13 @@
                         </p>
                     </div>
                     <div class="working-intro-img">
-                        <img src="assests\working.png" style="margin-bottom:30px ;" alt="Working of sar image">
+                        <img src="assests\working.png" style="margin-bottom:30px ;" alt="Working of sar image"
+                            class="inline-photo show-on-scroll">
                     </div>
                 </div>
                 <div class="application-written-intro" id="application-intro">
                     <div class="application-intro-para">
-                        <span>Applications</span>
+                        <span class="headr show-on-scroll">Applications</span>
                         <p>
                             With the help of sar we can check conditions of the volcano. And get to know early when it
                             will explode.<br><br>
@@ -151,7 +152,7 @@
                         </p>
                     </div>
                     <div class="application-intro-img">
-                        <img src="assests\volcano.gif" style="margin-bottom:30px ;"
+                        <img src="assests\volcano.gif" style="margin-bottom:30px ;" class="inline-photo show-on-scroll"
                             alt="Volcano scanning using SAR imsge">
                     </div>
 
@@ -176,6 +177,8 @@
         </footer>
 
     </div>
+    <script src="scripts\app.js"></script>
+
 </body>
 
 </html>
