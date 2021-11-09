@@ -1,4 +1,4 @@
-const scrollOffset = 100;
+const scrollOffset = 0;
 
 const scrollElement = document.querySelector(".js-scroll");
 

@@ -621,7 +621,7 @@ body {
 
 @keyframes fade-in-bottom {
     0% {
-        transform: translateY(250px);
+        transform: translateY(150px);
         opacity: 0;
     }
 
@@ -664,13 +664,13 @@ body {
 
 .headr {
     opacity: 0;
-    transition: opacity 2s .3s ease-in-out;
-
-
+    transform: translateY(100px);
+    transition: opacity 2s .3s ease-in-out, transform 2s ease-in-out;
 }
 
 .headr.is-visible {
     opacity: 1;
+    transform: translateY(0px);
 
 }
 
