@@ -238,6 +238,7 @@ body {
 .working-intro-para p,
 .application-intro-para p {
     color: black;
+    width: 90%;
     font-size: 22px;
     line-height: 29px;
     border-radius: 2%;
@@ -293,7 +294,7 @@ body {
     cursor: text;
     color: blanchedalmond;
     /* transform: translateY(10px); */
-    width: 85%;
+    /* width: 85%; */
 }
 
 

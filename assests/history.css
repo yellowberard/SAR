@@ -72,3 +72,252 @@
     color: blanchedalmond;
     font-size: 20px;
 }
+
+
+
+.container-org {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.content-inner {
+    width: 450px;
+    color: #fff;
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    backface-visibility: hidden;
+    transition: .9s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.content-inner:hover .content-front {
+    transform: rotateY(-180deg);
+}
+
+.content-inner:hover .content-back {
+    transform: rotateY(0deg);
+}
+
+.content-inner .content-front,
+.content-inner .content-back {
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    backface-visibility: hidden;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content-front {
+    background: #292929;
+}
+
+.content-inner>* {
+    transition: .9s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.content-inner .cf-inner {
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    width: 100%;
+    padding: 150px 30px;
+}
+
+.content-front .cf-inner:before,
+.content-front .cf-inner:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+}
+
+.content-front .cf-inner:before {
+    top: 20px;
+    left: 20px;
+    border-left: 1px dotted;
+    border-top: 1px dotted;
+    border-color: rgba(255, 255, 255, .6);
+}
+
+.content-front .cf-inner:after {
+    bottom: 20px;
+    right: 20px;
+    border-right: 1px dotted;
+    border-bottom: 1px dotted;
+    border-color: rgba(255, 255, 255, .6);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.4;
+    z-index: 3;
+}
+
+.content-inner .cf-inner .inner {
+    align-items: stretch;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    backface-visibility: hidden;
+    transform: translateZ(95px) scale(0.81);
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.content-inner .cf-inner .inner h1 {
+    position: relative;
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.content-inner .cf-inner .inner h1:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    width: 20px;
+    height: 2px;
+    margin-left: -10px;
+}
+
+.content-inner .cf-inner .inner h2:after {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    width: 50px;
+    height: 2px;
+    margin-left: -25px;
+    background: #C19D60;
+}
+
+.content-inner .cf-inner .inner h4 {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 0 4px;
+}
+
+.serv-num {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    color: #000;
+    z-index: 3;
+    font-size: 20px;
+}
+
+.content-inner .content-back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    transform: rotateY(180deg);
+    background: #ffebcd;
+}
+
+.content-back .dec-icon {
+    top: -20px;
+}
+
+.dec-icon {
+    position: relative;
+    display: inline-table;
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+    color: #000000;
+}
+
+.content-back:after {
+    color: #000;
+    position: absolute;
+    content: "\25CF\25CF\25CF";
+    width: 50px;
+    left: 50%;
+    bottom: 30px;
+    margin-left: -25px;
+    font-size: 9px;
+    letter-spacing: 4px;
+}
+
+.fa-utensils:before {
+    content: "\f2e7";
+}
+
+.content-inner .cf-inner .inner p {
+    color: #000;
+    font-size: 30px;
+    line-height: 20px;
+    /* padding-bottom: 10px; */
+    font-weight: 400;
+    height: 100px;
+}
+
+.bg-1,
+.bg-2,
+.bg-3,
+.bg-4,
+.bg-5,
+.bg-6,
+.bg-7,
+.bg-8,
+.bg-9,
+.bg-10 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-1 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/a/a7/ESA_emblem_seal.png)
+}
+
+.sat-img {
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto;
+    column-gap: 10%;
+    row-gap: 5%;
+    width: 100%;
+    height: 40%;
+    margin-bottom: 10%;
+}
+
+.table-headings h2 {
+
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Rampart One',
+        cursive;
+}
+
+.table-headings p {
+    font-family: 'PT Sans',
+        sans-serif;
+    font-size: 24px;
+    background-color: rgba(5, 3, 3, 0.9);
+}

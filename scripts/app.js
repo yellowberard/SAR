@@ -1,6 +1,7 @@
-const scrollOffset = 0;
+const scrollOffset = 100;
 
-const scrollElement = document.querySelector(".js-scroll");
+var scrollElement = document.querySelectorAll(".js-scroll");
+
 
 const elementInView = (el, offset = 0) => {
     const elementTop = el.getBoundingClientRect().top;
@@ -26,6 +27,7 @@ const handleScrollAnimation = () => {
         hideScrollElement();
     }
 }
+
 
 window.addEventListener('scroll', () => {
     handleScrollAnimation();
