@@ -39,8 +39,8 @@
 .dropdown-content {
     position: absolute;
     left: 0;
-    /* top: calc(100% +.25rem);  */
-    top: 0;
+    /* top: calc(100% +.25rem); */
+    top: 40%;
     padding: 0.25rem;
     /* background-color: coral; */
     opacity: 0;
@@ -53,14 +53,22 @@
 .dropdown-info.active>.more-info+.dropdown-content {
     opacity: 1;
     transform: translateY(0px);
+    pointer-events: auto;
 }
 
 .more-info {
-    width: 20%;
+    width: 30%;
     height: 100%;
     font-size: 15px;
-    padding: 5px;
-    background-color: rgba(5, 3, 3, 0.7);
+    padding: 8px;
+    background-color: rgba(5, 3, 3, 0.9);
+    border: none;
     border-radius: 0.3rem;
     color: blanchedalmond;
+}
+
+.wiki-link {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 20px;
 }
