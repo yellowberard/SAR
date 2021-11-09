@@ -29,3 +29,38 @@
 .seasat {
     width: 90%;
 }
+
+.dropdown-info {
+    position: relative;
+    width: 90%;
+    height: 100%;
+}
+
+.dropdown-content {
+    position: absolute;
+    left: 0;
+    /* top: calc(100% +.25rem);  */
+    top: 0;
+    padding: 0.25rem;
+    /* background-color: coral; */
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+    pointer-events: none;
+
+}
+
+.dropdown-info.active>.more-info+.dropdown-content {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.more-info {
+    width: 20%;
+    height: 100%;
+    font-size: 15px;
+    padding: 5px;
+    background-color: rgba(5, 3, 3, 0.7);
+    border-radius: 0.3rem;
+    color: blanchedalmond;
+}
