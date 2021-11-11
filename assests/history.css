@@ -1,8 +1,21 @@
 .invention {
+
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.midback {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -10;
+    max-width: 100%;
+    height: auto;
 }
 
 #radar-intro,
@@ -60,7 +73,7 @@
     width: 5%;
     height: 10%;
     font-size: 15px;
-    padding: 8px;
+    padding: 20px;
     /* background-color: rgba(5, 3, 3, 0.9); */
     border: none;
     border-radius: 0.3rem;
@@ -308,12 +321,17 @@
     margin-bottom: 10%;
 }
 
+.bands {
+    display: flex;
+}
+
 .table-headings h2 {
 
     font-size: 60px;
     text-transform: uppercase;
     font-family: 'Rampart One',
         cursive;
+    margin: 0;
 }
 
 .table-headings p {
@@ -321,4 +339,43 @@
         sans-serif;
     font-size: 24px;
     background-color: rgba(5, 3, 3, 0.9);
+}
+
+.sar-bands {
+    width: 100%;
+    margin-bottom: 10%;
+    margin-left: 0%;
+    display: flex;
+}
+
+.band {
+    display: block;
+    position: relative;
+    width: 100%
+}
+
+.band-info {
+    position: absolute;
+    top: 70%;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 300ms ease-in-out,
+        transform 300ms ease-in-out;
+
+}
+
+.band-info p {
+    padding: .5rem;
+    border-radius: 3%;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 3px;
+    font-family: 'PT Sans',
+        sans-serif;
+
+}
+
+.band:hover>.band-info {
+    opacity: 1;
+    transform: translateY(0px);
 }
