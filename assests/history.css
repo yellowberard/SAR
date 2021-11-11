@@ -314,6 +314,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: auto;
+    padding: 5%;
     column-gap: 10%;
     row-gap: 5%;
     width: 100%;
@@ -321,8 +322,8 @@
     margin-bottom: 10%;
 }
 
-.bands {
-    display: flex;
+.history-part-2 {
+    margin-top: 10%;
 }
 
 .table-headings {
@@ -356,11 +357,25 @@
         sans-serif;
 }
 
+.band-compare,
+.sar-compare {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bands {
+    display: flex;
+}
+
 .sar-bands {
     width: 100%;
     margin-bottom: 20%;
     margin-left: 5%;
     display: flex;
+
 }
 
 .band {
