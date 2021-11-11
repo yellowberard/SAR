@@ -57,14 +57,15 @@
 }
 
 .more-info {
-    width: 30%;
-    height: 100%;
+    width: 5%;
+    height: 10%;
     font-size: 15px;
     padding: 8px;
-    background-color: rgba(5, 3, 3, 0.9);
+    /* background-color: rgba(5, 3, 3, 0.9); */
     border: none;
     border-radius: 0.3rem;
     color: blanchedalmond;
+    cursor: default;
 }
 
 .wiki-link {

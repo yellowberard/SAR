@@ -14,11 +14,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Arvo:ital@1&family=Indie+Flower&family=PT+Sans&family=Playfair+Display:ital,wght@0,600;1,600&family=Rampart+One&display=swap"
         rel="stylesheet">
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
     <title>History</title>
 </head>
 
 <body>
-    <div class="whole">
+    <div class="whole" id="top">
         <header class="head">
             <div class="head-left">
                 <img src="assests\head4.png" alt="LOGO" class="head-logo">
@@ -96,7 +97,8 @@
 
                         </p>
                         <div class="dropdown-info" data-dropdown>
-                            <button class="more-info" data-dropdown-button> More about Carl Wiley</button>
+                            <span class="iconify more-info" data-dropdown-button
+                                data-icon="akar-icons:circle-plus"></span>
                             <div class="dropdown-content">
                                 <p style="font-size: 15px;">
                                     Leith was born in 1927 in Detroit, MI, the site of Wayne State
@@ -147,7 +149,8 @@
 
                         </p>
                         <div class="dropdown-info" data-dropdown>
-                            <button class="more-info" data-dropdown-button> More about Emmett Leith</button>
+                            <span class="iconify more-info" data-dropdown-button
+                                data-icon="akar-icons:circle-plus"></span>
                             <div class="dropdown-content">
                                 <p style="font-size: 15px;">
                                     Leith was born in 1927 in Detroit, MI, the site of Wayne State
@@ -564,18 +567,26 @@
                         wavelength varies from 3.1 cm
                         to 3.2 cm.
 
-
-
                     </p>
                 </div>
             </div>
         </div>
         <!-- <hr style="color:white"> -->
         <footer class="foot">
-            <div class="foot-left">
+            <!-- <div class="foot-left">
                 <img src="assests\EXPLORER.gif" alt="" class="foot-logo">
+            </div> -->
+            <a href="#top"> <span class="iconify foot-icon" data-icon="carbon:back-to-top" data-width="70"
+                    data-height="70"></span></a>
+            <div class="social-sm">
+                <a href="https://instagram.com/explorerakms?utm_medium=copy_link"><span class="iconify foot-sm-icon"
+                        data-icon="ant-design:instagram-filled" data-width="50" data-height="50"></span></a>
+                <a href="https://www.youtube.com/channel/UC5HeEOOYREbm-mKo0G7XtNQ"><span class="iconify foot-sm-icon"
+                        data-icon="bi:youtube" data-width="50" data-height="50"></span></a>
+                <a href="mailto:explorerakms@gmail.com"><span class="iconify foot-sm-icon" data-icon="mdi:gmail"
+                        data-width="50" data-height="50"></span></a>
             </div>
-            <div class="foot-right">
+            <!-- <div class="foot-right">
                 <div class="this-page">
                     <a href="#youtube-video">Introduction</a>
                     <a href="#whtissar">What is SAR??</a>
@@ -584,7 +595,8 @@
                     <a href="#working-intro">How SAR works??</a>
                     <a href="#application-intro">Applications</a>
                 </div>
-            </div>
+            </div> -->
+
         </footer>
 
     </div>
