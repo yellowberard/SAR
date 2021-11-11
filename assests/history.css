@@ -325,6 +325,15 @@
     display: flex;
 }
 
+.table-headings {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .table-headings h2 {
 
     font-size: 60px;
@@ -335,16 +344,22 @@
 }
 
 .table-headings p {
+    width: 60%;
+    font-size: 24px;
+    line-height: 35px;
+    background-color: rgba(5, 3, 3, 0.7);
+    border-radius: 2%;
+    padding: 2%;
+    letter-spacing: 2px;
+    transition: width 1s;
     font-family: 'PT Sans',
         sans-serif;
-    font-size: 24px;
-    background-color: rgba(5, 3, 3, 0.9);
 }
 
 .sar-bands {
     width: 100%;
-    margin-bottom: 10%;
-    margin-left: 0%;
+    margin-bottom: 20%;
+    margin-left: 5%;
     display: flex;
 }
 
