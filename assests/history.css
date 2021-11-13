@@ -355,6 +355,11 @@
     transition: width 1s;
     font-family: 'PT Sans',
         sans-serif;
+
+}
+
+.table-headings p:hover {
+    background-color: rgba(5, 3, 3, 0.9);
 }
 
 .band-compare,
