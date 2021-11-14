@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assests/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Arvo:ital@1&family=Indie+Flower&family=PT+Sans&family=Playfair+Display:ital,wght@0,600;1,600&family=Rampart+One&display=swap"
+        rel="stylesheet">
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <title>Working and Appllication</title>
+    <link rel="icon" href="assests/LOGO_AKMS.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="whole" id="top">
+        <header class="head">
+            <div class="head-left">
+                <img src="assests\head4.png" alt="LOGO" class="head-logo">
+                <video autoplay muted loop class="midback">
+                    <source src="assests\mid.mp4">
+                </video>
+            </div>
+            <div class="head-right">
+                <div class="head-links">
+                    <a href="index.html" class="intro">Introduction</a>
+                    <a href="history.html" class="history">History</a>
+                    <a href="#youtube-video" class="applications">Working & Applicaton</a>
+                    <a href="moresar.html" class="more-sar">SAR</a>
+                    <a href="aboutus.html" class="aboutus">About Us</a>
+                </div>
+            </div>
+        </header>
+        <div class="main-content">
+            <div class="heading-container headr show-on-scroll">
+                <h1 class="head-intro " style="color:white">
+                    Working and Application
+                </h1>
+            </div>
+            <div class="video-container">
+                <div class="youtube-video" id="youtube-video">
+                    <iframe src="https://www.youtube.com/embed/EyCYrbG6VUI" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <div class="written-part">
+                <div class="heading-container headr show-on-scroll">
+                    <h1 class="head-intro " style="color:white">
+                        Working
+                    </h1>
+                </div>
+                <div class="about-sar js-scroll fade-in-bottom" id="whtissar">
+                    <!-- <h3 style="color: white;">Radar Polarization</h3> -->
+                    <p style="color: white;">
+                        Synthetic aperture radar (SAR) refers to a technique for producing fine-resolution images from a
+                        resolution-limited radar system. It requires that the radar be moving in a straight line, either
+                        on
+                        an airplane or,rocket. The basic principle of any imaging radar is to emit an electromagnetic
+                        signal
+                        (which travels at the speed of light) toward a surface and record the amount of signal that
+                        bounces/echoes back, or “backscatters,” and it's time delay. <br><br>
+                        The SAR works similar to a phased array, but contrary to a large number of the parallel antenna
+                        elements of a phased
+                        array, SAR uses one antenna in time-multiplex. The different geometric positions of the antenna
+                        elements are the result
+                        of the moving platform now. <br><br>
+                        The wavelengths that remote sensing radars use to observe Earth’s surface are microwaves,
+                        typically in the range of a few to tens of centimetres. Because the radar signal loses energy as
+                        it travels – at a rate equivalent to the beam width (wavelength / antenna size) – by the time it
+                        hits the surface, the beam has spread dramatically. For example, with a signal wavelength of 10
+                        centimeters and an antenna of 10 meters in diameter, the beam width is 1/100 radians (0.6
+                        degrees). <br><br>
+                        From an altitude of 1,000 kilometers, the resulting beam width on the ground becomes a
+                        very large 10 km, producing an image resolution which is insufficient for most applications. SAR
+                        is the solution to this dilemma as it can vastly improve the resolution. <br><br>
+                        SAR techniques take advantage of the fact that the radar is moving in orbit to synthesize a
+                        virtual 10-km-long antenna from the physical 10-m antenna in the direction of flight. As the
+                        radar moves along its path, it sweeps the antenna’s footprint across the ground while
+                        continuously transmitting pulses – short signal bursts separated by time – and receiving the
+                        echoes of the returned pulses. <br><br>
+                        As a target (like a ship) first enters the radar beam, the backscattered echoes from each
+                        transmitted pulse begin to be
+                        recorded. As the platform continues to move forward, all echoes from the target for each pulse
+                        are recorded during the
+                        entire time that the target is within the beam. The point at which the target leaves the view of
+                        the radar beam some
+                        time later, determines the length of the simulated or synthesized antenna. The synthesized
+                        expanding beamwidth, combined
+                        with the increased time a target is within the beam as ground range increases, balances each
+                        other, such that the
+                        resolution remains constant across the entire swath. <br><br>
+                        The SAR-processor stores all the radar returned signals, as amplitudes and phases, for the time
+                        period T from position A to D. Now it is possible to reconstruct the signal which would have
+                        been obtained by an antenna of length v · T, where v is the platform speed. As the line of sight
+                        direction changes along the radar platform trajectory, a synthetic aperture is produced by
+                        signal processing that has the effect of lengthening the antenna. Making T large makes the
+                        „synthetic aperture” large and hence a higher resolution can be achieved
+
+                    </p>
+                </div>
+                <div class="heading-container headr show-on-scroll">
+                    <h1 class="head-intro " style="color:white">
+                        Application
+                    </h1>
+                </div>
+                <div class="aperture-written-intro " id="aperture-intro">
+
+                    <div class="aperture-intro-para  ">
+                        <span class="headr show-on-scroll"> SAR for DEM Generation </span>
+                        <p>
+                            DEM which stands for Digital Elevation
+                            Model.
+                            Two technologies can be applied to generate DEM that are stereo SAR and interferometric sar.
+                            Stereo sar uses the parallax of sar pair to generate DEM;
+                            Interferometric sar uses the different phases of two sar images to estimate the surface
+                            height.
+                            A DEM for a large area can be generated without the need of ground control or a few control
+                            points.
+
+
+                        </p>
+                    </div>
+                    <div class="aperture-intro-img js-scroll">
+                        <img src="assests\polarization.jpeg" style="margin-top:30px ;"
+                            class="inline-photo show-on-scroll" alt="Aperture Closing and opening Image">
+                    </div>
+                </div>
+                <div class="radar-written-intro ">
+                    <div class="radar-intro-para">
+                        <span class="headr show-on-scroll"> SAR for Subsidence Monitoring</span>
+                        <p>
+                            Di-In-SAR technology is used
+                            The millimeters level of accuracy can be obtained
+                            This technology is good for monitoring the construction site such as mining area, city….
+                            It can help in predicting the hazards such as mining exploitation.
+
+                        </p>
+                    </div>
+                    <div class="radar-intro-img">
+                        <img src="assests\adv_sar_pol.jpeg" style="margin-bottom:30px" class="a  inline-photo
+                            show-on-scroll" alt=" Radar propagating a wave image">
+                    </div>
+
+                </div>
+                <div class="working-written-intro" id="working-intro">
+
+                    <div class="working-intro-para">
+                        <span class="headr show-on-scroll"> SAR for Soil Moisture Content</span>
+                        <p>
+                            Soil dielectric constant is calculated through the sar backscattering signals.
+                            The soil moisture content can be estimated by the soil dielectric constant.
+                            The accuracy of the estimated result depends on the SAR wavelength, the polarization used.
+                            It is useful for irrigation monitoring as well as environmental monitoring.
+                            <br><br>
+                            In the image you can see
+                            The SMAP radar image acquired from march 21 to april 3rd 2015. Weaker radar signals
+                            (shown in blue) reflect low soil moisture or lack of vegetation such as deserts.strong radar
+                            signals (shown in red) are
+                            seen in forests. SMAP’S radar also takes data over the ocean and sea.
+
+                        </p>
+                    </div>
+                    <div class="working-intro-img">
+                        <img src="assests\working.png" style="margin-bottom:30px ;" alt="Working of sar image"
+                            class="inline-photo show-on-scroll">
+                    </div>
+                </div>
+                <div class="application-written-intro" id="application-intro">
+                    <div class="application-intro-para">
+                        <span class="headr show-on-scroll"> SAR for Crop Estimation</span>
+                        <p>Multi temporal SAR data should be used to monitor the plant growth and the plant’s biomass.
+                            The damaged area due to flooding can also be monitored.
+                            The crop producing model may be used to stimulate the plant growth and predict the crop
+                            yields.
+
+
+                        </p>
+                    </div>
+                    <div class="application-intro-img">
+                        <img src="assests\volcano.gif" style="margin-bottom:30px ;" class="inline-photo show-on-scroll"
+                            alt="Volcano scanning using SAR imsge">
+                    </div>
+
+                </div>
+                <div class="application-written-intro" id="application-intro">
+                    <div class="application-intro-para">
+                        <span class="headr show-on-scroll">SAR for Flood Control</span>
+                        <p>SAR data is weather independent.
+                            It can be obtained before, during and after the flood event.
+                            The flood area and flood effect area can be mapped.
+                            The flood movement can be delineated
+
+
+                        </p>
+                    </div>
+                    <div class="application-intro-img">
+                        <img src="assests\volcano.gif" style="margin-bottom:30px ;" class="inline-photo show-on-scroll"
+                            alt="Volcano scanning using SAR imsge">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <footer class="foot">
+
+            <a href="#top"> <span class="iconify foot-icon" data-icon="carbon:back-to-top" data-width="70"
+                    data-height="70"></span></a>
+            <div class="social-sm">
+                <a href="https://instagram.com/explorerakms?utm_medium=copy_link"><span class="iconify foot-sm-icon"
+                        data-icon="ant-design:instagram-filled" data-width="50" data-height="50"></span></a>
+                <a href="https://www.youtube.com/channel/UC5HeEOOYREbm-mKo0G7XtNQ"><span class="iconify foot-sm-icon"
+                        data-icon="bi:youtube" data-width="50" data-height="50"></span></a>
+                <a href="mailto:explorerakms@gmail.com"><span class="iconify foot-sm-icon" data-icon="mdi:gmail"
+                        data-width="50" data-height="50"></span></a>
+            </div>
+        </footer>
+
+    </div>
+    <script src="scripts\app.js"></script>
+
+</body>
+
+</html>
