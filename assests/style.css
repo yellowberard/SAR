@@ -144,8 +144,6 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    transition: step-start;
-    animation: come-in 0.8s ease forwards;
 }
 
 .about-sar h3 {
@@ -690,3 +688,22 @@ body {
         filter 10s 2s ease-out;
     will-change: transform;
 } */
+
+/* Working and Applications */
+
+#working-sar-info p {
+    width: 80%;
+    font-size: 25px;
+}
+
+#working-sar-info p:hover {
+    background-color: rgba(5, 3, 3, 0.9);
+}
+
+#work-heading {
+    margin-top: 10%;
+}
+
+#wanda-head {
+    font-size: 100px;
+}
