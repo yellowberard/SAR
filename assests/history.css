@@ -70,15 +70,15 @@
 }
 
 .more-info {
-    width: 5%;
-    height: 10%;
+    width: 8%;
+    height: 0%;
     font-size: 15px;
     padding: 20px;
     /* background-color: rgba(5, 3, 3, 0.9); */
     border: none;
     border-radius: 0.3rem;
     color: blanchedalmond;
-    cursor: default;
+    cursor: pointer;
 }
 
 .wiki-link {
