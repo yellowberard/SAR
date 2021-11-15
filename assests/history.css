@@ -128,7 +128,7 @@
 }
 
 .content-front {
-    background: #292929;
+    background: #000
 }
 
 .content-inner>* {
@@ -290,11 +290,7 @@
 .bg-3,
 .bg-4,
 .bg-5,
-.bg-6,
-.bg-7,
-.bg-8,
-.bg-9,
-.bg-10 {
+.bg-6 {
     position: absolute;
     top: 0;
     left: 0;
@@ -306,7 +302,27 @@
 }
 
 .bg-1 {
-    background-image: url(https://upload.wikimedia.org/wikipedia/en/a/a7/ESA_emblem_seal.png)
+    background-image: url(https://space.skyrocket.de/img_sat/ers-1__1.jpg)
+}
+
+.bg-2 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYW4Z85mrMQ5oQy9ed6O0zjembB8zZtz1AO5nAWqaM5WTV6p1rtzb41yokWyKAX7qXYoU&usqp=CAU);
+}
+
+.bg-3 {
+    background-image: url(https://eo.belspo.be/sites/default/files/styles/xlarge/public/satellites/radarsat2.jpg?itok=E6Uwuh8G);
+}
+
+.bg-4 {
+    background-image: url(https://img.etimg.com/thumb/msid-58824890,width-480,height-360,imgsize-223158,resizemode-4/deal-confirmed.jpg);
+}
+
+.bg-5 {
+    background-image: url(https://c.ndtvimg.com/2020-02/j58iecio_satellite-generic_295x200_01_February_20.jpg);
+}
+
+.bg-6 {
+    background-image: url(https://eoportal.org/ftp/satellite-missions/t/TanDEMX-140621/TanDEMX_Auto17.jpeg);
 }
 
 .sat-img {
@@ -392,6 +408,7 @@
 .band-info {
     position: absolute;
     top: 70%;
+    left: 15%;
     opacity: 0;
     transform: translateY(-20px);
     transition: opacity 300ms ease-in-out,

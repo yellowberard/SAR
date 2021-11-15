@@ -1,6 +1,8 @@
-const scrollOffset = 100;
+const scrollOffset = 0;
 
-var scrollElement = document.querySelectorAll(".js-scroll");
+var scrollElement = document.querySelector(".js-scroll");
+// var scroll = document.querySelectorAll(".js-scroll");
+
 
 
 const elementInView = (el, offset = 0) => {
@@ -32,6 +34,11 @@ const handleScrollAnimation = () => {
 window.addEventListener('scroll', () => {
     handleScrollAnimation();
 })
+// scroll.forEach(scrolling = () => {
+//     window.addEventListener('scroll', () => {
+//         handleScrollAnimation();
+//     })
+// })
 //initialize throttleTimer as false
 let throttleTimer = false;
 
